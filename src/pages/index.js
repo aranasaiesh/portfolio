@@ -6,11 +6,11 @@ export default function Home() {
   return (
     <main>
       <div className="flex flex-col gap-2 justify-start w-auto pt-36 pl-16 md:pl-32">
-        <div className="flex fixed pl-48 mix-blend-overlay md:ml-72">
+        <div className="flex fixed pl-48 mix-blend-overlay md:ml-72 md:mix-blend-overlay">
           <Image src={Ellipse1} width="480" height="auto" />
         </div>
         <div>
-          <h1 className="font-bold text-2xl ">Hi, I am Aran</h1>
+          <h1 className="font-bold text-2xl ">Hi, I am Aran.</h1>
         </div>
         <div>
           <h1 className="text-pink-400 font-bold text-2xl ">

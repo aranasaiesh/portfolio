@@ -4,7 +4,7 @@ import Ellipse2 from "../images/Ellipse2.png";
 export default function Contact() {
   return (
     <>
-      <div className="flex bg-white text-black justify-center pt-12">
+      <div className="flex bg-white text-black justify-center pt-12 pl-8">
         <section>
           <div class="py-8 md:py-16 px-4 mx-auto ">
             <h2 class="mb-4 text-2xl text-center text-gray-900 bg-white">
