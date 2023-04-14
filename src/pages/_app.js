@@ -4,13 +4,13 @@ import "@/styles/globals.css";
 export default function App({ Component, pageProps }) {
   return (
     <div>
-      <nav className="flex flex-row w-full">
+      <div className="flex flex-row w-full">
         <div className="flex p-8 justify-start absolute">
           <Link href="/" className="font-extrabold text-xl">
             LOGO
           </Link>
         </div>
-        <div className="w-full md:flex md:justify-center hidden">
+        <div className="w-full flex md:justify-center pt-14 ">
           <ul className="flex gap-8 p-8">
             <li>
               <Link href="/" className="hover:underline">
@@ -39,7 +39,7 @@ export default function App({ Component, pageProps }) {
             </li>
           </ul>
         </div>
-      </nav>
+      </div>
       <Component {...pageProps} />
     </div>
   );
