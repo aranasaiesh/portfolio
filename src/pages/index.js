@@ -5,9 +5,9 @@ import Ellipse2 from "../images/Ellipse2.png";
 export default function Home() {
   return (
     <main>
-      <div className="flex flex-col gap-2 justify-start w-auto pt-36 pl-16 md:pl-32">
-        <div className="flex fixed pl-48 mix-blend-overlay md:ml-72 md:mix-blend-overlay">
-          <Image src={Ellipse1} width="480" height="auto" />
+      <div className="flex flex-col gap-2 justify-start pt-36 pl-16 md:pl-32">
+        <div className="flex fixed md:ml-72">
+          <Image src={Ellipse1} alt="Ellipse image" width="480" height="auto" />
         </div>
         <div>
           <h1 className="font-bold text-2xl ">Hi, I am Aran.</h1>
@@ -22,7 +22,7 @@ export default function Home() {
         </p>
       </div>
       <div className="flex absolute bottom-0 left-0 mix-blend-overlay">
-        <Image src={Ellipse2} width="120" />
+        <Image src={Ellipse2} alt="Ellipse image2" width="120" />
       </div>
     </main>
   );
