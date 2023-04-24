@@ -4,9 +4,9 @@ import Ellipse2 from "../images/Ellipse2.png";
 export default function Contact() {
   return (
     <>
-      <div className="flex bg-white text-black justify-center pt-12 pl-8">
+      <div className="flex bg-white text-black justify-center p-4">
         <section>
-          <div class="py-8 md:py-16 px-4 mx-auto ">
+          <div class="py-8 sm:py-16 px-4 mx-auto ">
             <h2 class="mb-4 text-2xl text-center text-gray-900 bg-white">
               Contact me
             </h2>
@@ -71,8 +71,8 @@ export default function Contact() {
           </div>
         </section>
       </div>
-      <div className="flex absolute">
-        <Image src={Ellipse2} width="120" />
+      <div className="flex fixed bottom-0 left-0">
+        <Image src={Ellipse2} width="70" />
       </div>
     </>
   );

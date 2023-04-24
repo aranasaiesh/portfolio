@@ -9,15 +9,15 @@ import Ellipse2 from "../images/Ellipse2.png";
 export default function Skills() {
   return (
     <>
-      <div className="flex text-black pl-8 justify-center pt-24 font-bold text-2xl">
+      <div className="flex text-black p-8 justify-center font-bold text-2xl">
         <h1>MY SKILLS</h1>
       </div>
-      <div className="flex flex-row gap-20 justify-center pt-20 pl-8">
+      <div className="flex flex-row gap-20 justify-center p-8">
         <FaReact className="flex text-4xl" />
         <DiJavascript1 className="flex text-4xl" />
         <AiOutlineHtml5 className="flex text-4xl" />
       </div>
-      <div className="flex flex-row gap-20 justify-center pt-20 pl-8">
+      <div className="flex flex-row gap-20 justify-center p-8">
         <BsFiletypeCss className="flex text-4xl" />
         <DiNodejs className="flex text-5xl" />
         <SiTailwindcss className="flex text-4xl" />
