@@ -9,7 +9,7 @@ import Ellipse2 from "../images/Ellipse2.png";
 export default function Skills() {
   return (
     <>
-      <div className="flex text-black p-8 justify-center font-bold text-2xl">
+      <div className="flex text-black p-8 justify-center font-bold text-2xl lg:text-4xl">
         <h1>MY SKILLS</h1>
       </div>
       <div className="flex flex-row gap-20 justify-center p-8">

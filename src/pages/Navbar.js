@@ -6,8 +6,8 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-white shadow">
-      <div className="mx-auto px-4 py-2 max-w-7xl sm:px-6 lg:px-8">
+    <nav className="bg-white">
+      <div className="mx-auto px-4 py-2 max-w-7xl sm:px-6">
         <div className="flex justify-between h-16">
           <div className="flex sm:gap-48">
             <Link
@@ -16,7 +16,7 @@ export default function Navbar() {
             >
               <h1>LOGO</h1>
             </Link>
-            <div className="hidden sm:ml-8 sm:flex sm:space-x-8 items-center">
+            <div className="hidden sm:ml-8 sm:flex sm:space-x-8 items-center ">
               <Link href="/" className="nav-link">
                 Home
               </Link>
