@@ -11,8 +11,8 @@ export default function Contact() {
               Contact me
             </h2>
             <p class="mb-8 md:mb-16 font-light text-center text-gray-800 sm:text-xl">
-              Let me know if you have any questions or if you simply just want
-              to say hi!
+              Let me know if you have any questions or if you simply want to say
+              hi!
             </p>
 
             <div></div>

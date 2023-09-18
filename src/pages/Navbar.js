@@ -7,15 +7,17 @@ export default function Navbar() {
 
   return (
     <nav className="bg-white">
-      <div className="mx-auto px-4 py-2 max-w-7xl sm:px-6">
+      <div className="mx-auto px-4 py-2 max-w-7xl sm:px-6 lg:justify-center lg:flex md:justify-center md:flex">
         <div className="flex justify-between h-16">
           <div className="flex sm:gap-48">
             <Link
               href="/"
               className="flex-shrink-0 flex items-center font-bold text-lg"
             >
-              <h1>LOGO</h1>
+              <h1 className="text-black">aran</h1>
+              <h1 className="text-pink-400">asaiesh</h1>
             </Link>
+
             <div className="hidden sm:ml-8 sm:flex sm:space-x-8 items-center ">
               <Link href="/" className="nav-link">
                 Home

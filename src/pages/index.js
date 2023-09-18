@@ -5,7 +5,7 @@ import Ellipse2 from "../images/Ellipse2.png";
 export default function Home() {
   return (
     <main>
-      <div className="flex flex-col gap-2 justify-start pt-32 pl-16 sm:pl-32 lg:flex lg:pt-48 lg:ml-96">
+      <div className="flex flex-col gap-2 justify-start pt-32 pl-16 sm:pl-32 lg:flex lg:pt-48 lg:ml-72">
         <div className="hidden sm:flex sm:absolute sm:mix-blend-overlay sm:ml-96 lg:flex">
           <Image src={Ellipse1} alt="Ellipse image" width="320" height="auto" />
         </div>
